@@ -28,6 +28,7 @@ config :phoenix, :json_library, Jason
 
 config :my_el_kb, MyElKb.Repo,
   adapter: Ecto.Adapters.Postgres,
+  show_sensitive_data_on_connection_error: true,
   pool_size: 10
 
 # Import environment specific config. This must remain at the bottom
