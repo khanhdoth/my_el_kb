@@ -5,7 +5,7 @@ config :my_el_kb, MyElKb.Repo,
   username: "postgres",
   password: "postgres",
   database: "my_el_kb_dev",
-  hostname: "localhost",
+  hostname: "172.17.0.1",
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
 
